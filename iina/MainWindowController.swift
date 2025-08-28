@@ -3024,6 +3024,10 @@ class MainWindowController: PlayerWindowController {
     }
   }
 
+  @IBAction func takeScreenshotMenuItemClicked(_ sender: Any) {
+    player.screenshot()
+  }
+
   // MARK: - Utility
 
   private func resetCollectionBehavior() {
